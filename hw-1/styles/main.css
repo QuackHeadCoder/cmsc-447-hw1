@@ -1,0 +1,35 @@
+.all{
+    background-color: rgb(30, 30, 118);
+    color: rgb(255, 255, 255);
+    width:100%;
+    align-self: center;
+    
+}
+body{
+    font-size: 16px;
+}
+
+.Picture img{
+    height: auto;
+    width:auto;
+    max-height:300px;
+    max-width:300px;
+    border-radius: 100px;
+    float:left;
+}
+
+.Picture .row:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.text{
+    width: 70%;
+    padding-left: 15px;
+    float:left;
+    outline-offset: -5px;
+    outline: black solid 3px;
+}
+
+

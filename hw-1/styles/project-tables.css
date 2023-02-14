@@ -1,0 +1,65 @@
+.projects-section{
+    position: relative;
+    margin-top: 5%;
+    float:left;
+    width:80%;
+    background-image: radial-gradient(blue,black);
+    outline: rgb(205, 198, 0) solid thick;
+
+
+    padding-left:5%;
+    height: 500px;
+
+    color:yellow;
+    display:flex;
+}
+
+
+.projects-section img{
+    position: absolute;
+    width: 200px;
+    height:200px;
+    border-radius:100px;
+    outline: rgb(205, 198, 0) solid thick;
+    background-image: radial-gradient(white, yellow,black,orange);
+}
+
+.projects-section table{
+    width:25%;
+    padding-left: 10%;
+    display:inline-block;
+	border-collapse:collapse;
+	vertical-align:top;
+}
+
+
+.projects-section table th,
+.projects-section table td{
+    align-items:left;
+	padding:4px;
+	vertical-align:top;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+.projects-section table th{
+    width:200px;
+    text-align: center;
+}
+
+.Hidden_Message{
+    opacity: 0;
+    transition: 1s ease;
+    position: absolute;
+    width: 200px;
+    height:200px;
+    border-radius:100px;
+    outline: rgb(205, 198, 0) solid thick;
+}
+.view{
+    opacity:1;
+}
+
+.Hidden_Message:hover{
+    opacity:1
+}
